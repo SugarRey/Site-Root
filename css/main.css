@@ -1,0 +1,192 @@
+*{
+   box-sizing: border-box;
+}
+body{
+   margin: 0;
+   padding: 0;
+   
+} 
+
+
+
+
+.columns {
+   display: flex;
+   margin: 0 auto;
+}
+
+header{
+   height: auto;
+   top: 0;
+   width: 100%;
+}
+
+
+.container {
+   width: 1020px;
+   margin: 0 auto;
+   position: relative;
+}
+.menu{
+   background-color:#E9E9E9;
+}
+a {
+   cursor: pointer;
+   text-decoration: none;
+   font-size: 16px;
+   font-family: Arial;
+   color:#3C6BB1;
+}
+.nav-right-menu{
+   position: relative;
+   text-align: right;
+}
+/* code main menu */
+.logo{
+   width: 40%;
+}
+.listas{
+   width: 60%;
+}
+.listas a{
+   font-size: 16px;
+   font:bold;
+}
+.listas a:hover{
+   border-bottom: 2px solid #102B3E;
+   font-weight:bold;
+}
+.column img{
+   padding: 4px 0;
+   height: 60px;
+}
+.menu ul li{
+   display: inline-block;
+   text-align: right;
+   line-height: 30px;
+   margin: 0 15px;
+}
+/* seccion columns banner_header */
+
+.banner_header{
+   background-color: #3C6BB1;
+   height:490px ;
+}
+.banner_header-wraper{
+   width: 1020px;
+}
+.wraper{
+   margin: 110px 0px;
+   height:auto;
+   width:700px;
+   /* border: 1px solid red; */
+}
+.wraper h1{
+   font-family: arial;
+   font-size: 28px;
+   font-weight: bold;
+   color: #ffffff;
+   text-transform: uppercase;
+   font-family: "Raleway",sans-serif;
+}
+.wraper p{
+   line-height: 23px;
+   color:#cacaca;
+   font-size: 18px;
+   font-family: arial;
+   letter-spacing: 1px;
+   letter-spacing: 0.5px;
+}
+.wraper-foto{
+   margin: 50px -70px 90px 150px;
+}
+.wraper-foto img{
+   height: 400px;
+}
+.wraper a{
+   text-align: center;
+   background-color: #fff;
+   margin: 15px 0 0 2px;
+   padding: 8px 12px;
+   height: 35px;
+   display:inline-block;
+   border-radius: 99px;
+   color:#3C6BB1;
+   width: 150px;
+   
+}
+.wraper a:hover{
+   color: #366e96;
+   border: none;
+}
+
+
+
+
+
+
+ /* section of main */
+
+ 
+
+/*parte main cursos  */
+
+/* .checkbook{
+   display: inline-block;
+   border:10px solid white;
+   border-radius: 0;
+   border-color: red blue;
+} */
+
+/* codigo de css del pie de  pagina */
+
+footer{
+   background-color:#3C6BB1;
+   height:230px;
+}
+
+footer .container-footer{
+   height: 100%;
+   width:1020px;
+   margin: 0px auto;
+   display: flex;
+   
+}
+
+.footer-social{
+   width: 40%;
+   border-right: 2px solid #CDD8E0;
+   height:200px;
+   margin-top:15px;
+}
+.logo-footer{
+   margin-top: 10px;
+}
+.footer-social p{
+   margin-top: 5px;
+   color: white;
+   font-family: LatoWeb, Arial;
+   line-height: 0.8;
+   font-size: 0.9em;
+}
+.social img{
+   height:30px;
+   margin: 5px 10px 0 0;
+}
+.nav-menu{
+   width: 40%;
+   border-right: 2px solid #CDD8E0;
+   height:200px;
+   margin-top:15px;
+}
+.nav-menu a, h4{
+   color: white;
+   margin-left: 30px;
+   font-family: LatoWeb, Arial;
+   display: block;
+}
+.contacto p, h4{
+   color: white;
+   margin-left: 30px;
+   font-family: LatoWeb, Arial;
+}
