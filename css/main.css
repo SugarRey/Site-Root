@@ -35,7 +35,7 @@ a {
    text-decoration: none;
    font-size: 16px;
    font-family: Arial;
-   color:#3C6BB1;
+   color:#007FFF;
 }
 .nav-right-menu{
    position: relative;
@@ -69,7 +69,7 @@ a {
 /* seccion columns banner_header */
 
 .banner_header{
-   background-color: #3C6BB1;
+   background-color: #007FFF;
    height:490px ;
 }
 .banner_header-wraper{
@@ -111,12 +111,12 @@ a {
    height: 35px;
    display:inline-block;
    border-radius: 99px;
-   color:#3C6BB1;
+   color:#007FFF;
    width: 150px;
    
 }
 .wraper a:hover{
-   color: #366e96;
+   color: #007FFF;
    border: none;
 }
 
@@ -141,7 +141,7 @@ a {
 /* codigo de css del pie de  pagina */
 
 footer{
-   background-color:#3C6BB1;
+   background-color:#007FFF;
    height:230px;
 }
 

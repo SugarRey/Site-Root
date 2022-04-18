@@ -14,7 +14,7 @@
 
 .row-netflix{
    width: 50%;
-   background-color:#DD636E;
+   background-color:#22b914;
    height:300px;
    margin: 10px 40px 10px 0;
    display: flex;
@@ -22,7 +22,7 @@
 }
 .row-disney{
    width: 50%;
-   background-color:#6BBEF6;
+   background-color:#0f95ee;
    height:300px;
    margin:  10px 0 10px 0px;
    display: flex;
@@ -55,7 +55,7 @@ button{
    width: 150px;;
    margin-left: 30px;
    text-align: center;
-   background-color: #3C6BB1;
+   background-color: #007FFF;
    border-style: none;
    height:35px;
    border-radius: 99px;
@@ -100,7 +100,7 @@ button{
 main .titlemain h2{
    font-size:1.8rem;
    margin: 50px 0 50px 0;
-   color: #3C6BB1;
+   color: #007FFF;
    font-family: "Raleway",sans-serif;
    font-weight: 800;
    text-align:center;
@@ -127,27 +127,27 @@ main .titlemain h2{
 .precios{
    width:30%;
    height: 550px;
-   border: 2px solid  #3C6BB1;
+   border: 2px solid  #007FFF;
    margin: 30px;
    border-radius: 5px;
    margin-bottom: 90px;
 }
 .precios-t1{
-   background-color:#3C6BB1;
+   background-color:#007FFF;
 }
 .wrap-pre{
    width:80%;
    height:80px;
-   background-color:#3C6BB1;
+   background-color:#007FFF;
    margin: 27px auto;
    border-radius: 5px;
 }
 .precios-t1 .wrap-pre{
    background-color:white;
-   color: #3C6BB1;
+   color: #007FFF;
 }
 .precios-t1 .wrap-pre p{
-   color: #3C6BB1;
+   color: #007FFF;
 }
 .wrap-pre p{
    text-align:center;
@@ -157,7 +157,7 @@ main .titlemain h2{
    padding: 18px 10px
 }
 .parr p{
-   color: #3C6BB1;
+   color: #007FFF;
    font-family: "Raleway",sans-serif;
    font-weight: 700;
    font-size: 25px;
@@ -203,3 +203,34 @@ main .titlemain h2{
    font-family: "Raleway",sans-serif;
    margin: 30px;
 }
+
+
+
+.container-form{
+   margin-top: 50px;
+   margin-bottom: 100px;
+}
+.form-contacto{
+   width: 500px;
+   margin: 0 auto;
+}
+.form-contacto input, textarea{
+   width: 100%;
+   padding: 10px;
+   margin-top: 15px;
+   border: 1px solid #EAEEF2;
+   border-radius: 7px;
+}
+.form-contacto .btn-r{
+   text-align: right;
+}
+.form-contacto .btn-enviar {
+   width: 100px;
+   color: #fff;
+   background-color: #007FFF;
+}
+.bd-container {
+   max-width: 1024px;
+   margin: auto;
+   /* border: 1px solid red; */
+  }
